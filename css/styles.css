@@ -12,7 +12,7 @@ a {
   text-decoration: none;
   color: #2e2f42;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.333;
 }
 
 a:hover,
@@ -39,7 +39,7 @@ ul {
 .main {
   color: #ffffff;
   background-color: #2e2f42;
-  line-height: 60px;
+  line-height: 1.07;
   font-weight: 700;
   text-align: center;
 }
@@ -73,6 +73,15 @@ h3 {
 }
 
 .team h3,
-p {
+.team p {
   text-align: center;
+}
+
+.footer {
+  color: #ffffff;
+  background-color: #2e2f42;
+}
+
+.footer .studio {
+  color: #ffffff;
 }
