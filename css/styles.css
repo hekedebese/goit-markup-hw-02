@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: #434455;
+  letter-spacing: 2%;
 }
 
 .accent {
@@ -11,13 +12,14 @@ a {
   text-decoration: none;
   color: #2e2f42;
   font-weight: 500;
-  letter-spacing: 2%;
+  line-height: 24px;
 }
 
 a:hover,
 a:focus,
 a:active {
   color: #404bbf;
+  text-decoration: underline;
 }
 
 ul {
@@ -34,7 +36,7 @@ ul {
   color: #404bbf;
 }
 
-.main-title {
+.main {
   color: #ffffff;
   background-color: #2e2f42;
   line-height: 60px;
@@ -42,12 +44,35 @@ ul {
   text-align: center;
 }
 
-.main-title .main-title-button {
+.main .main-title-button {
   background-color: #4d5ae5;
   color: #ffffff;
+  line-height: inherit;
 }
 
-.main-title .main-title-button:hover,
-.main-title .main-title-button:focus {
+.main .main-title-button:hover,
+.main .main-title-button:focus {
   background-color: #404bbf;
+}
+
+h2,
+h3 {
+  color: #2e2f42;
+}
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.team .team-title {
+  text-align: center;
+}
+
+.team li {
+  background-color: #ffffff;
+}
+
+.team h3,
+p {
+  text-align: center;
 }
